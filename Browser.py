@@ -19,7 +19,7 @@ for x in h.headers:
     print("\t ", x, ":", h.headers[x])
 print("**********")
 
-# This will modify the headers user-agent
+# Modify the Header user-agent to display Mobile below
 headers = {
     'User-Agent' : "Mobile"
 }
