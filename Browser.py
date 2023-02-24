@@ -10,7 +10,7 @@ print(r.text)
 print("Status code:")
 print("\t *", r.status_code)
 
-# This will just get just the headers
+# This will get just the headers
 h = requests.head(url)
 print("Header:")
 print("**********")
