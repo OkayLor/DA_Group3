@@ -1,4 +1,3 @@
-# Use the Request library
 import requests
 # Set the target webpage
 url ='http://172.18.58.80/creative'
@@ -19,7 +18,6 @@ for x in h.headers:
     print("\t ", x, ":", h.headers[x])
 print("**********")
 
-# Modify the Header user-agent to display Mobile below
 headers = {
     'User-Agent' : "Mobile"
 }
